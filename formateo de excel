@@ -1,0 +1,16 @@
+Como formatear el excel -->
+
+
+Control + H para abrir el desplegable.
+
+1º reemplazamos las tabulaciones por ;
+
+\t  => ;
+
+2º quitamos el separador de miles 
+
+(\d+)\.(\d{3}) => ${1}${2}
+
+3º quitamos el simbolo de €
+
+(\d{2})€ => ${1}

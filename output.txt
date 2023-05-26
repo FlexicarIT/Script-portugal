@@ -1,0 +1,2 @@
+Vehiculo: 903010000000383 => "procedencia" is not allowed to be empty
+
